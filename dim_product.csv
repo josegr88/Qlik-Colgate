@@ -1,0 +1,14 @@
+ProductID,ProductName,Brand,Segment,UnitPrice,ImageURL
+101,Colgate Total 12,Colgate,Oral Care,3.2,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Colgate+Total+12
+102,Colgate Kids,Colgate,Oral Care,2.85,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Colgate+Kids
+103,Colgate Sensitive Pro-Relief,Colgate,Oral Care,4.1,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Colgate+Sensitive+Pro-Relief
+201,Palmolive Naturals,Palmolive,Personal Care,1.95,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Palmolive+Naturals
+202,Sanex Dermo,Sanex,Personal Care,2.4,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Sanex+Dermo
+203,Protex Antibacterial,Protex,Personal Care,1.8,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Protex+Antibacterial
+204,Irish Spring,Irish Spring,Personal Care,2.1,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Irish+Spring
+205,Speed Stick,Speed Stick,Personal Care,3.5,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Speed+Stick
+206,Softsoap,Softsoap,Personal Care,2.25,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Softsoap
+301,Suavitel,Suavitel,Home Care,4.75,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Suavitel
+302,Fabuloso,Fabuloso,Home Care,3.1,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Fabuloso
+303,Ajax,Ajax,Home Care,2.6,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Ajax
+304,Axion,Axion,Home Care,1.85,https://placehold.co/400x400/2B3A67/FFFFFF.png?text=Axion
