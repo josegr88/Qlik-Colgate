@@ -292,7 +292,3 @@ The backend establishes the data foundation, while the frontend transforms that 
 - **Star Schema** — dimensional data modeling
 
 ---
-
-### Author
-
-Simulated CPG analytics project built to demonstrate end-to-end BI development: data modeling, business logic, and custom dashboard UX in Qlik Sense.
