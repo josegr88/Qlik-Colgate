@@ -284,7 +284,7 @@ The backend establishes the data foundation, while the frontend transforms that 
 3. Open `Colgate-Palmolive_Sales_Intelligence.qvf` with Qlik Sense Desktop.
 4. That's it — the `.qvf` already ships with the data model loaded (a snapshot of all transactional, product, customer, and calendar data is stored inside the file), so the dashboard opens ready to explore. **No external CSV files or a data reload are required.**
 
-> ℹ️ Reloading the script (`Ctrl+R`) is only relevant if you have access to the original source data and want to regenerate the model — the source files are not included in this repository, so a reload attempt without them will fail. Just open and explore the app as-is.
+> ℹ️ Reloading the script (`Ctrl+R`) is only relevant if you have access to the original source data and want to regenerate the model — the source files are  included in this repository, so you may download the files and play with the data!
 
 ## Tech Stack
 
