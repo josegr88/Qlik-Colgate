@@ -282,7 +282,9 @@ The backend establishes the data foundation, while the frontend transforms that 
    git clone https://github.com/josegr88/Qlik-Colgate.git
    ```
 3. Open `Colgate-Palmolive_Sales_Intelligence.qvf` with Qlik Sense Desktop.
-4. Reload the data model if prompted (`Ctrl+R` or the reload button in the Data Load Editor) to regenerate the Master Calendar and segmentation fields.
+4. That's it — the `.qvf` already ships with the data model loaded (a snapshot of all transactional, product, customer, and calendar data is stored inside the file), so the dashboard opens ready to explore. **No external CSV files or a data reload are required.**
+
+> ℹ️ Reloading the script (`Ctrl+R`) is only relevant if you have access to the original source data and want to regenerate the model — the source files are not included in this repository, so a reload attempt without them will fail. Just open and explore the app as-is.
 
 ## Tech Stack
 
@@ -290,5 +292,3 @@ The backend establishes the data foundation, while the frontend transforms that 
 - **Qlik Set Analysis & Expressions** — KPI logic and conditional calculations
 - **HTML/CSS (embedded in expressions)** — custom UI components
 - **Star Schema** — dimensional data modeling
-
----
