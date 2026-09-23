@@ -2,7 +2,7 @@
 
 **A simulated sales intelligence dashboard built in Qlik Sense, analyzing commercial performance across four Latin American markets.**
 
-![Overview](docs/screenshots/02-dashboard-sales-by-weekday.png)
+![Overview](docs/screenshots/sales-by-weekday.png)
 
 ---
 
@@ -157,7 +157,7 @@ The **Sales by Month** visualization provides a twelve-month view of sales volum
 
 Because Qlik Sense selections are associative, filtering a country, brand, segment, or product immediately changes the trend analysis. For example, selecting **Fabuloso** transforms the dashboard from a regional overview into a product-specific commercial analysis.
 
-![Sales trend + Fabuloso fact sheet](docs/screenshots/05-commercial-fact-sheet-fabuloso.png)
+![Sales trend + Fabuloso fact sheet](docs/screenshots/commercial-fact-sheet-fabuloso.png)
 
 ## Commercial Fact Sheet
 
@@ -181,7 +181,7 @@ The **Commercial Fact Sheet** is designed as a detailed product profile. When a 
 
 This creates a bridge between traditional dashboard analysis and a more detailed SKU-level commercial dossier. The component also includes a controlled empty state when a unique product selection has not been made, preventing unnecessary visual clutter.
 
-![Commercial Fact Sheet — Protex](docs/screenshots/04-commercial-fact-sheet-protex.png)
+![Commercial Fact Sheet — Protex](docs/screenshots/commercial-fact-sheet-protex.png)
 
 ## Brand Performance
 
@@ -191,7 +191,7 @@ Colgate · Suavitel · Fabuloso · Palmolive · Ajax · Sanex · Speed Stick · 
 
 The visualization is fully interactive, meaning that selecting a brand updates the rest of the dashboard accordingly.
 
-![Sales by Brand](docs/screenshots/03-dashboard-sales-by-brand.png)
+![Sales by Brand](docs/screenshots/sales-by-brand.png)
 
 ## Demographic Analysis
 
@@ -202,7 +202,7 @@ The **Sales by Demographics** section combines age groups and gender into a sing
 
 This makes it possible to understand both the size of each demographic segment and its internal composition. For example, the dashboard can show how the 35–44 segment contributes to overall sales while simultaneously displaying the distribution between male and female customers — a more granular perspective than a conventional demographic table.
 
-![Sales by Age Group](docs/screenshots/06-dashboard-sales-by-age-group.png)
+![Sales by Age Group](docs/screenshots/sales-by-age-group.png)
 
 ## Weekday Analysis
 
@@ -216,7 +216,7 @@ Year · Month · Date · Weekday · Country · Segment · Brand · Product · Sa
 
 This layer provides transparency into the data behind the aggregated visualizations and allows users to validate individual transactions and analytical results.
 
-![Transaction-level table](docs/screenshots/01-transaction-level-table.png)
+![Transaction-level table](docs/screenshots/transaction-level-table.png)
 
 ## UI/UX Design
 
@@ -266,12 +266,12 @@ The backend establishes the data foundation, while the frontend transforms that 
 ├── Colgate-Palmolive_Sales_Intelligence.qvf   # Qlik Sense app (open with Qlik Sense Desktop)
 └── docs/
     └── screenshots/
-        ├── 01-transaction-level-table.png
-        ├── 02-dashboard-sales-by-weekday.png
-        ├── 03-dashboard-sales-by-brand.png
-        ├── 04-commercial-fact-sheet-protex.png
-        ├── 05-commercial-fact-sheet-fabuloso.png
-        └── 06-dashboard-sales-by-age-group.png
+        ├── sales-by-weekday.png
+        ├── commercial-fact-sheet-fabuloso.png
+        ├── commercial-fact-sheet-protex.png
+        ├── sales-by-brand.png
+        ├── sales-by-age-group.png
+        └── transaction-level-table.png
 ```
 
 ## How to Open the App
